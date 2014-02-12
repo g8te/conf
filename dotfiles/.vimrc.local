@@ -1,0 +1,9 @@
+let g:EclimCompletionMethod = 'omnifunc'
+set shiftwidth=4
+set expandtab
+set softtabstop=4
+set gfn=Sauce\ Code\ Powerline\ Light:h13
+set guioptions-=Be
+set guioptions=aAc
+set shell=/bin/zsh
+inoremap <C-e> <C-o>A
