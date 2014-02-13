@@ -9,5 +9,7 @@ alias go='git checkout '
 alias gk='gitk --all&'
 alias gx='gitx --all'
 export JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/'
+export GRADLE_HOME='/Users/zcj/OSSLibraries/gradle-1.11'
 export PATH=$PATH:$JAVA_HOME/bin:$HOME/.rvm/bin
+export PATH=$PATH:$GRADLE_HOME/bin
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
