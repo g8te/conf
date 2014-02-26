@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Adobe Photoshop</string>
+	<key>shortcuts</key>
+	<array>
+		<dict>
+			<key>heading</key>
+			<true/>
+			<key>title</key>
+			<string>工具</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>9</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Move tool</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>46</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Marquee tool</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>37</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Lasso tool</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>13</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Magic Wand / Quick Selection tool</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>8</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Crop / Slice tool</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>34</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Eyedropper / Ruler / Note / Count tool</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>38</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Healing Brush tool</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>11</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Brush / Pencil / Color / Mixer tool</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>1</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Stamp tool</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>16</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>History Brush tool</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>14</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Eraser tool</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>5</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Gradient / Paint Bucket tool</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>31</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Dodge / Burn / Sponge tool</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>35</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Pen tool</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>17</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Type tool</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>0</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Path / Direct Selection tool</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>32</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Shape tool</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>40</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>3D Object tool</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>45</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>3D Camera tool</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>4</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Hand tool</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>15</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Rotate View tool</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>6</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Zoom tool</string>
+		</dict>
+		<dict>
+			<key>heading</key>
+			<true/>
+			<key>title</key>
+			<string>查看图片</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>48</integer>
+			<key>modifiers</key>
+			<integer>262144</integer>
+			<key>title</key>
+			<string>Cycle through open documents</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>39</integer>
+			<key>modifiers</key>
+			<integer>1179648</integer>
+			<key>title</key>
+			<string>Switch to previous document</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>13</integer>
+			<key>modifiers</key>
+			<integer>1179648</integer>
+			<key>title</key>
+			<string>Close file in Photoshop and open Bridge</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>12</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Toggle Standard / Quick Mask mode</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>3</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Toggle (forward) Standard / Full screen mode</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>3</integer>
+			<key>modifiers</key>
+			<integer>131072</integer>
+			<key>title</key>
+			<string>Toggle (backward) Standard / Full screen mode</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>18</integer>
+			<key>modifiers</key>
+			<integer>1048576</integer>
+			<key>title</key>
+			<string>Magnify 100%</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>49</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Switch to Hand tool</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>49</integer>
+			<key>modifiers</key>
+			<integer>1048576</integer>
+			<key>title</key>
+			<string>Switch to Zoom In tool</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>49</integer>
+			<key>modifiers</key>
+			<integer>524288</integer>
+			<key>title</key>
+			<string>Switch to Zoom Out tool</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>36</integer>
+			<key>modifiers</key>
+			<integer>131072</integer>
+			<key>title</key>
+			<string>Apply zoom percentage</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>4</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Temporarily zoom in (with click)</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>116</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Scroll up 1 screen</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>121</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Scroll down 1 screen</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>116</integer>
+			<key>modifiers</key>
+			<integer>131072</integer>
+			<key>title</key>
+			<string>Scroll up 10 units</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>121</integer>
+			<key>modifiers</key>
+			<integer>131072</integer>
+			<key>title</key>
+			<string>Scroll down 10 units</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>115</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Move to upper-left corner</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>119</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Move to lower right corner</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>42</integer>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Toggle layer mask on/off</string>
+		</dict>
+	</array>
+</dict>
+</plist>
