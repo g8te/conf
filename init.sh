@@ -20,6 +20,11 @@ if [[ -f ~/.gitconfig ]]; then
     ln -s ~/conf/dotfiles/.gitconfig ~/.gitconfig
 fi
 
+if [[ -f ~/.gitignore_global ]]; then
+    rm -f ~/.gitignore_global
+    ln -s ~/conf/dotfiles/.gitignore_global ~/.gitignore_global
+fi
+
 line="* * * * * ~/bin/online-check.sh"
 # nomal command for a specitic user
 # (crontab -u userhere -l; echo "$line" ) | crontab -u userhere -
