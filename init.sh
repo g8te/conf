@@ -15,6 +15,11 @@ if [[ -f ~/bin/online-check.sh]]; then
     ln -s ~/conf/bin/online-check.sh ~/bin/online-check.sh
 fi
 
+if [[ -f ~/.gitconfig ]]; then
+    rm -f ~/.gitconfig
+    ln -s ~/conf/dotfiles/.gitconfig ~/.gitconfig
+fi
+
 line="* * * * * ~/bin/online-check.sh"
 # nomal command for a specitic user
 # (crontab -u userhere -l; echo "$line" ) | crontab -u userhere -

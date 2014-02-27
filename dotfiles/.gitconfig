@@ -1,0 +1,21 @@
+[user]
+   email = zcj@me.com
+   name = zhangcj
+[alias]
+   co = checkout
+   ci = commit
+   st = status
+   br = branch
+   hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+   type = cat-file -t
+   dump = cat-file -p
+[color]
+   status = auto
+   diff = auto
+   branch = auto
+   remote = auto
+   ui = 1
+[core]
+	editor = vim
+[format]
+   pretty=format:%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an %ae>%Creset
