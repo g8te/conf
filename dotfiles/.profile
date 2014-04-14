@@ -1,6 +1,6 @@
 alias sudo='sudo '
-alias vim='/Applications/MacVim.app/Contents/MacOS/Vim '
-alias crontab='EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim crontab'
+#alias vim='/Applications/MacVim.app/Contents/MacOS/Vim '
+alias crontab='EDITOR=/usr/local/bin/vim crontab'
 alias gs='git status '
 alias ga='git add '
 alias gb='git branch '
@@ -11,7 +11,7 @@ alias gk='gitk --all&'
 alias gx='gitx --all'
 
 # Configure default editor for programmes using editor
-export EDITOR='/Applications/MacVim.app/Contents/MacOS/Vim '
+export EDITOR='/usr/local/bin/vim '
 
 # Configure JDK for developing java application
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/
@@ -33,8 +33,14 @@ PATH=$MAVEN_HOME/bin:$PATH
 export ANT_HOME=$HOME/gears/java/apache-ant-1.9.2
 PATH=$ANT_HOME/bin:$PATH
 
+# Configure NPM path
+PATH=/usr/local/share/npm/bin:$PATH
+
 # Configure RVM 
 PATH=$HOME/.rvm/bin:$PATH
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+# Init NVM(Node Version Management)
+source ~/.nvm/nvm.sh
 
 export PATH=$PATH
