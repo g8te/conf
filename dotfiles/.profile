@@ -1,5 +1,4 @@
 alias sudo='sudo '
-#alias vim='/Applications/MacVim.app/Contents/MacOS/Vim '
 alias crontab='EDITOR=/usr/local/bin/vim crontab'
 alias gs='git status '
 alias ga='git add '
@@ -18,7 +17,8 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home
 PATH=$JAVA_HOME/bin:$PATH
 
 # Configure JBoss Application Server
-export JBOSS_HOME=$HOME/gears/java/wildfly-8.0.0.Final
+# export JBOSS_HOME=$HOME/gears/java/wildfly-8.0.0.Final
+export JBOSS_HOME=$HOME/gears/java/wildfly-8.1.0.CR2
 PATH=$JBOSS_HOME/bin:$PATH
 
 # Configure Gradle for building application
