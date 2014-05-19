@@ -40,6 +40,9 @@ PATH=/usr/local/share/npm/bin:$PATH
 PATH=$HOME/.rvm/bin:$PATH
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
+# Configure postgresql path
+PATH=/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH
+
 # Init NVM(Node Version Management)
 source ~/.nvm/nvm.sh
 
