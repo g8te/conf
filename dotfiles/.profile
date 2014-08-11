@@ -18,19 +18,19 @@ PATH=$JAVA_HOME/bin:$PATH
 
 # Configure JBoss Application Server
 # export JBOSS_HOME=$HOME/gears/java/wildfly-8.0.0.Final
-export JBOSS_HOME=$HOME/gears/java/wildfly-8.1.0.CR2
+export JBOSS_HOME=$HOME/gears/java/wildfly-8.1.0.Final
 PATH=$JBOSS_HOME/bin:$PATH
 
 # Configure Gradle for building application
-export GRADLE_HOME=$HOME/gears/java/gradle-1.11
+export GRADLE_HOME=$HOME/gears/java/gradle-2.0
 PATH=$GRADLE_HOME/bin:$PATH
 
 # Configure Maven for building maven projects
-export MAVEN_HOME=$HOME/gears/java/apache-maven-3.1.1
+export MAVEN_HOME=$HOME/gears/java/apache-maven-3.2.2
 PATH=$MAVEN_HOME/bin:$PATH
 
 # Configure Ant for building ant projects
-export ANT_HOME=$HOME/gears/java/apache-ant-1.9.2
+export ANT_HOME=$HOME/gears/java/apache-ant-1.9.4
 PATH=$ANT_HOME/bin:$PATH
 
 # Configure NPM path
