@@ -23,7 +23,7 @@
 # Logs and databases #
 ######################
 *.log
-*.sql
+# *.sql
 *.sqlite
 
 # OS generated files #
@@ -35,3 +35,20 @@
 .Trashes
 ehthumbs.db
 Thumbs.db~
+
+# Eclipse generated files #
+###########################
+.classpath
+.project
+.settings/
+
+# Intellij generated files #
+############################
+.idea/
+*.iml
+*.iws
+
+# Maven generated files #
+#########################
+log/
+target/
