@@ -13,7 +13,8 @@ alias gx='gitx --all'
 export EDITOR='/usr/local/bin/vim '
 
 # Configure JDK for developing java application
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/
+# export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/
 PATH=$JAVA_HOME/bin:$PATH
 
 # Configure JBoss Application Server
